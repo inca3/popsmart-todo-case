@@ -13,7 +13,7 @@ const TodoForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     if (todo.trim().length < 3) {
-      setWarning('Todo item must be longer than 3 characters!')
+      setWarning('Todo item must contain minimum 3 characters!')
       setTimeout(() => {
         setWarning('')
       }, 3000)
