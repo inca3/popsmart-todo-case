@@ -32,7 +32,7 @@ const TodoForm = () => {
           placeholder='Add new todo...'
           onInput={handleInput}
         />
-        <button>Add</button>
+        <button>add</button>
       </form>
       <p className='warning'>{warning}</p>
     </>

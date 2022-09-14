@@ -27,7 +27,7 @@ const UserInfo = () => {
       {user ? (
         <div className='logged-in flex'>
           <p>{user}</p>
-          <button onClick={logOut}>Log Out</button>
+          <button onClick={logOut}>log out</button>
         </div>
       ) : (
         <form onSubmit={handleSubmit} className='log-in-form flex'>
@@ -37,7 +37,7 @@ const UserInfo = () => {
             placeholder='Username'
             onChange={(e) => setText(e.target.value)}
           />
-          <button>Log In</button>
+          <button>log in</button>
         </form>
       )}
     </div>

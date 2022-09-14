@@ -20,7 +20,7 @@ const EditTodo = ({ todo, setIsEditOpen }) => {
         value={newTodo}
         onChange={(e) => setNewTodo(e.target.value)}
       />
-      <button>Save</button>
+      <button>save</button>
     </form>
   )
 }
