@@ -11,22 +11,17 @@ const Theme = () => {
     // eslint-disable-next-line
   }, [])
 
-  const changeTheme = () => {
-    if (theme === 'light') {
-      setTheme('dark')
-      localStorage.setItem('theme', 'dark')
-    } else {
-      setTheme('light')
-      localStorage.setItem('theme', 'light')
-    }
+  const changeTheme = (theme) => {
+    setTheme(theme)
+    localStorage.setItem('theme', theme)
   }
 
   return (
     <div className='theme'>
       {theme === 'light' || !theme ? (
-        <img src={Moon} alt='' onClick={changeTheme} />
+        <img src={Moon} alt='' onClick={() => changeTheme('dark')} />
       ) : (
-        <img src={Sun} alt='' onClick={changeTheme} />
+        <img src={Sun} alt='' onClick={() => changeTheme('light')} />
       )}
     </div>
   )
