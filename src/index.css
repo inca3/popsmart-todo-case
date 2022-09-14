@@ -14,6 +14,7 @@
 
 .app {
   height: 100vh;
+  background-color: #fdffff;
 }
 
 #light {
@@ -34,6 +35,8 @@
   align-items: center;
   padding: 20px;
   position: relative;
+  background-color: #49505a;
+  color: #fdffff;
 }
 
 #light .header {
@@ -88,9 +91,6 @@ button {
   border: none;
   height: 100%;
   cursor: pointer;
-}
-
-#light button {
   background-color: #fdffff;
   color: #1c2022;
 }
@@ -189,9 +189,6 @@ button {
   user-select: none;
   border-radius: 6px;
   height: 40px;
-}
-
-#light .edit-form > button {
   background-color: #8b94a3;
   color: #fdffff;
 }

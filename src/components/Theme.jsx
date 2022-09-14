@@ -23,7 +23,7 @@ const Theme = () => {
 
   return (
     <div className='theme'>
-      {theme === 'light' ? (
+      {theme === 'light' || !theme ? (
         <img src={Moon} alt='' onClick={changeTheme} />
       ) : (
         <img src={Sun} alt='' onClick={changeTheme} />
