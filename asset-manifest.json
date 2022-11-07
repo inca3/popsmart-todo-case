@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/popsmart-todo-case/static/css/main.d5d51889.css",
-    "main.js": "/popsmart-todo-case/static/js/main.6670dfa0.js",
-    "index.html": "/popsmart-todo-case/index.html",
-    "static/media/elipse-full.svg": "/popsmart-todo-case/static/media/elipse-full.df157f955e0e4bf13c2dd6d5c91ef111.svg",
-    "static/media/elipse.svg": "/popsmart-todo-case/static/media/elipse.7ded6a4c9eb31efc3b5c273941fb1c06.svg",
-    "main.d5d51889.css.map": "/popsmart-todo-case/static/css/main.d5d51889.css.map",
-    "main.6670dfa0.js.map": "/popsmart-todo-case/static/js/main.6670dfa0.js.map"
+    "main.css": "/popupsmart-todo-case/static/css/main.d5d51889.css",
+    "main.js": "/popupsmart-todo-case/static/js/main.57d1ab9f.js",
+    "index.html": "/popupsmart-todo-case/index.html",
+    "static/media/elipse-full.svg": "/popupsmart-todo-case/static/media/elipse-full.f4b26a1d6adfb3e28f698ecffe4dc0d7.svg",
+    "static/media/elipse.svg": "/popupsmart-todo-case/static/media/elipse.37177e8a60905f5dfda6ca2f2cf6db08.svg",
+    "main.d5d51889.css.map": "/popupsmart-todo-case/static/css/main.d5d51889.css.map",
+    "main.57d1ab9f.js.map": "/popupsmart-todo-case/static/js/main.57d1ab9f.js.map"
   },
   "entrypoints": [
     "static/css/main.d5d51889.css",
-    "static/js/main.6670dfa0.js"
+    "static/js/main.57d1ab9f.js"
   ]
 }
