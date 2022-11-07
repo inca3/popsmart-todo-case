@@ -6,7 +6,7 @@ Popupsmart React Practium için yapılmış Todo Case.
 
 ## Demo
 
-[Demo Proje Linki](http://inca3.github.io/popsmart-todo-case)
+[Demo Proje Linki](http://inca3.github.io/popupsmart-todo-case)
 
 ## Detaylar
 
