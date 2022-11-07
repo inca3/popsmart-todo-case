@@ -1,6 +1,6 @@
 # Popupsmart React Practicum
 
-Popsmart React Practium için yapılmış Todo Case.
+Popupsmart React Practium için yapılmış Todo Case.
 
 ![Proje Görseli](https://i.imgur.com/1S3X39e.png)
 
